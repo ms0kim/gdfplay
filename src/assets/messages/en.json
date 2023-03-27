@@ -1,0 +1,651 @@
+{
+    "common": {
+        "gdflab": "GDFLab",
+        "gdflab_full": "GDFLab. Co., Ltd.",
+        "login": "Login",
+        "start": "Getting Started",
+        "back_to_home": "Back to Home",
+        "name": "Name",
+        "soon": "Coming Soon"
+    },
+    "menu": {
+        "home": "Home",
+        "product": "Product",
+        "developer": "Developer",
+        "service": "Service",
+        "mobile_sdk": "Mobile SDK",
+        "pikavue": "Pikavue",
+        "genhancer": "G-Enhancer",
+        "documentation": "Documentation",
+        "guides": "Guides",
+        "api_references": "API References",
+        "pricing": "Pricing",
+        "help": "Help",
+        "faq": "FAQ",
+        "contact_us": "Contact Us"
+    },
+    "home": {
+        "title1": "Best AI",
+        "title2": "Upscaler",
+        "subtitle": "Try our AI super resolution technology in a variety of ways",
+        "news": "GDFNews",
+        "whytitle1": "Why choose",
+        "whytitle2": "GDFLAB's",
+        "whytitle3": "super resolution?",
+        "performance": "Performance",
+        "performance_detail": "The fastest upscaling & remastering solution.",
+        "quality": "Quality",
+        "quality_detail": "The best quality upscaling & remastering solution.",
+        "service_name": "Our Services",
+        "service_title1": "Make good use of our services based on",
+        "service_title2": "",
+        "aisr": "AI Super Resolution",
+        "sdk": {
+            "title": "Save Data with AI real-time SR technology",
+            "subtitle": "Reduce 80% of video networking data.",
+            "btn": "Check out Mobile SDK"
+        },
+        "pikavue": {
+            "title": "Upscale and remaster your images and videos on web",
+            "subtitle": "Upscale and remaster your images and videos on any device.",
+            "btn": "Try Pikavue"
+        },
+        "genhancer": {
+            "title": "Upscale and remaster your videos on PC Application.",
+            "subtitle": "Upscale and remaster your videos on PC Application. Make videos better quality.",
+            "btn": "Try G-Enhancer"
+        },
+        "feedback_name": "Feedback",
+        "feedback_title1": "What's Our Client Say",
+        "feedback_title2": "About Us",
+        "feedback_title3": "",
+        "feedbacks": [
+            {
+                "name": "Rashed Ka..",
+                "title": "Founder CreativeGigs",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Zubayer Hasan.",
+                "title": "CEO & Founder Heloshape",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Eh Jewel",
+                "title": "Senior Developer",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Zubayer Hasan.",
+                "title": "CEO & Founder Heloshape",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Eh Jewel",
+                "title": "Senior Developer",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            }
+        ]
+    },
+    "documentation": {
+        "getting_started": {
+            "getting_started": "Getting Started",
+            "quick_start": "Quick Start",
+            "gdfsdk_title": "GDF SR SDK for Android",
+            "gdfsdk_desc": "`GDFSR` is the SDK library module.",
+            "constraints_title": "Constraints",
+            "constraints_desc": "Only video inputs with resolutions of 320x180, 320x192, 426x240, 480x270, 640x360, and 854x480 are currently supported. Models with various resolutions will be added in the future, and functions such as automatic size conversion and dynamic model creation will be added.",
+            "initialize_title": "Initialize",
+            "initialize_desc": "Initialization must be preceded by the code below before calling other APIs. It can be called when the first activity is created.",
+            "load_title": "Load",
+            "load_desc": "When the resolution of the input image is known, create a GDFUpsacler object using the code below.",
+            "load_desc2": "'width' and 'height' is resolution of the original video.\n If 'height' is less than 270, 'scale' equals to 4.\n If 'height' is between 270 and 480, then 'scale' is 3.",
+            "execute_title": "Example",
+            "execute_desc": "GDFSRProcessor is wrapper of GDFSR library dedicated to Video Super Resolution.",
+            "execute_desc2": "Function 'clearBuffers()' must be called after inference, or may cause memory leak.",
+            "release_title": "Release",
+            "release_desc": "Release the class object.",
+            "installation": "Installation",
+            "requirements": "Requirements",
+            "minimum_requirements": {
+                "title": "Android Minimum Requirements",
+                "context": "Android Minimum SDK : 28 /29\nAndroid Compile SDK : 33\nAndroid NDK : 21.4\nIt performs better on phones equiped with Qualcomm snapdragon 865 or newer"
+            }
+        }   
+    },
+    "product": {
+        "sdk": {
+            "title": "Mobile SDK",
+            "ecotitle": "AI Eco Streaming",
+            "subtitle": "With GDFLab's mobile SDK, \nyou can reduce 80% of video networking data.",
+            "gdfplay-btn": {
+                "title": "GDFPlay",
+                "desc": "Get transcoder demo on"
+            },
+            "appstore-btn": {
+                "title": "Coming Soon",
+                "desc": "Get player demo on"
+            },
+            "googleplay-btn": {
+                "title": "Google play",
+                "desc": "Get player demo on"
+            },
+            "how-title1": "How",
+            "how-title2": "GDFLAB's",
+            "how-title3": "Mobile SDK Work?",
+            "how-work": [
+                {
+                    "title": "Compress",
+                    "desc": "Compressing media files from GDFLAB's transcoding server."
+                },
+                {
+                    "title": "Transmit",
+                    "desc": "Transmitting highly compressed media files over the Internet."
+                },
+                {
+                    "title": "Play",
+                    "desc": "Playing restored media files in real time with our Mobile SDK."
+                }
+            ],
+            "why-name": "Why our mobile SDK",
+            "why-title1": "",
+            "why-title2": "Main Reasons",
+            "why-title3": "to choose it.",
+            "why-sdk": [
+                {
+                    "title": "Cost Saving",
+                    "subtitle": "Save your video network costs up to 84% with GDF transcoding."
+                },
+                {
+                    "title": "Best Quality",
+                    "subtitle": "Mobile SDK upscaling AI solution enhances the video to better quality."
+                },
+                {
+                    "title": "Easy to apply",
+                    "subtitle": "Compression and upscale solutions are simple to apply. Try our SDK today by contacting our team."
+                }
+            ],
+            "comparison_stitle": "Model Quality Comparison",
+            "comparison_title": "GDFLab SDK Options",
+            "comps": [
+                {
+                    "title": "270p×4 [1080p]"
+                },
+                {
+                    "title": "360p×3 [1080p]"
+                },
+                {
+                    "title": "480p×2 [960p]"   
+                }
+            ],
+            "save_traffic": "Save mobile traffic"
+        }
+    },
+    "pricing": {
+        "mobile_sdk": {
+            "title": "GDF SDK Pricing Plans",
+            "month": "month",
+            "year": "year",
+            "monthly": "monthly",
+            "yearly": "yearly",
+            "m_free": {
+                "pac_name": "FREE",
+                "unit": "$",
+                "price": "0",
+                "bill_cycle": "3 Months Free",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volume",
+                "list3": "Collects Network Fee" 
+            },
+            "m_device": {
+                "pac_name": "Active Device Base",
+                "unit": "$",
+                "price": "1",
+                "bill_cycle": "Per Active Device",
+                "list1": "MAU under 100k",
+                "list2": "Collects Active User Count" 
+            },
+            "m_network_saving": {
+                "pac_name": "Network Saving Base",
+                "unit": "",
+                "price": "50%",
+                "bill_cycle": "of Network Cost Saving",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volume",
+                "list3": "Collects Network Fee"
+            },
+            "y_free": {
+                "pac_name": "FREE",
+                "unit": "$",
+                "price": "0",
+                "bill_cycle": "3 Months Free",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volume",
+                "list3": "Collects Network Fee"
+            },
+            "y_device": {
+                "pac_name": "Active Device Base",
+                "unit": "$",
+                "price": "10",
+                "bill_cycle": "Per Active Device",
+                "list1": "MAU under 100k",
+                "list2": "Collects Active User Count"
+            },
+            "y_network_saving": {
+                "pac_name": "Network Saving Base",
+                "unit": "",
+                "price": "50%",
+                "bill_cycle": "of Network Cost Saving",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volume",
+                "list3": "Collects Network Fee"
+            },
+            "request_form" : {
+                "title": "Request SDK",
+                "website": "Website",
+                "company_size": "Company Size",
+                "device_count": "Device Count",
+                "os": "OS",
+                "package_name": "Package Name",
+                "agree1": "By pressing “Submit” button you confirm that you have read and accept our",
+                "agree2": "and",
+                "agree3": "",
+                "claim": "Submit"
+            }
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "context": "Find out advice and answers from experts of GDFLab!",
+        "faq": "FAQs",
+        "faq_detail": "There are experts' answers below. Find what you need.",
+        "no_answer": "Can't find your answer?"
+    },
+    "search": {
+        "placeholder": "Search for articles"
+    },
+    "contact_us": {
+        "hello": "Feel free to contact us or just say hi!",
+        "location": "Location",
+        "contact": "Contact",
+        "sns": "Social Media",
+        "sns_hello": "Find on social media",
+        "message": "Your Message",
+        "send": "Send Message"
+    },
+    "user": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "company_name": "Company Name",
+        "job_title": "Job Title",
+        "is_member": "Already a member?",
+        "sign_in": "Sign in."
+    },
+    "label": {
+        "firstname": "your given name",
+        "lastname": "your family name",
+        "email": "your email address",
+        "phone": "your phone number with +nation code",
+        "company_name": "your company name",
+        "website": "https://your company website",
+        "job_title": "your job title",
+        "company_size": "your company size",
+        "device_count": "expected mobile devices per month",
+        "os": "SDK OS",
+        "package": "ID of your application",
+        "message": "your message here.."
+    },
+    "news": {
+        "overview": "Overview",
+        "context": "Context",
+        "written_at": "Written At",
+        "written_by": "Written By",
+        "previous": "Previous",
+        "next": "Next",
+        "no_previous": "No Previous Post",
+        "no_next": "No Next Post"
+    },
+    "newsletter": {
+        "title": "SUBSCRIBE NOW",
+        "context": "Subscribe our Newsletter!",
+        "subscribe": "Subscribe"
+    },
+    "footer": {
+        "language": "Language",
+        "services": "Services",
+        "about_us": "About us",
+        "team": "Team",
+        "ceo_key": "CEO",
+        "ceo_value": "Kyoung-ik Jang",
+        "regis_num_key": "Korean EID",
+        "sale_regis_key": "Mail-order-sales ID",
+        "pricing_plan": "Plan & Pricing",
+        "contact_info": "Contact Info",
+        "gdf_address": "601-01, R&D Tower, NurikkumSquare, 396, World Cup bouk-ro, Mapo-gu, Seoul, Republic of Korea",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    },
+    "error": {
+        "not_found_1": "Sorry",
+        "not_found_2": "This Page Can't",
+        "not_found_3": "be Found.",
+        "not_found_detail": "Go back home and try again. If this error Occurs repeatedly, please report the issue.",
+        "required": "This is required",
+        "not_valid_email": "Valid email is required",
+        "no_message": "Leave us a message"
+    },
+    "website_terms": {
+        "title": "Website Terms & Use",
+        "update": "LAST UPDATED: 2/25/2023",
+        "context": "Thank you for using GDF Labs services and products (hereinafter referred to as ‘Services’). These terms and conditions govern the use of various GDF Labs services, and the relationship between GDF Labs, Inc. (hereinafter referred to as 'GDF Labs'), which provides GDF Labs services, and members (hereinafter referred to as 'members') or non-members of GDF Labs services that use them. It explains the relationship, and also contains useful information that may be helpful for your use of the GDF Lab service. \nFor details check below link:"
+    },
+    "terms_and_conditions": {
+        "title": "Terms and Conditions",
+        "update": "LAST UPDATED: 2/25/2023",
+        "context": "This End User License Agreement (“EULA”) is made between you and GDFLab Services By downloading and using the Services, you agree to be bound by the terms of this EULA. The terms of this license set out some rules for using the GDFLab services.",
+        "article1": {
+            "title": "Entire agreement ",
+            "context": "This is the entire agreement between you and GDFlab which supersedes any prior agreement or understanding, whether written or oral, relating to the subject matter of this license. A GDFLab service is a service that commences as soon as Your GDFLab service is made available to you and/or when you have access to it. And This product is licensed and protected by copyright and other intellectual property laws."
+        },
+        "article2": {
+            "title": "Ownership of our SOFTWARE and other things",
+            "context": "Although we license you permission to install on your device and play our SOFTWARE, we are still the owners of it. We are also the owners of our brands and any content contained in the SOFTWARE. Therefore, when you pay for our SOFTWARE, you are buying a license to use our SOFTWARE in accordance with this EULA - you are not buying the SOFTWARE itself. The only permissions you have in connection with the SOFTWARE and your installation of it are the permissions set out in this EULA.Your license confers no title or ownership in the SOFTWARE and should not be construed as a sale of any right in the SOFTWARE.You only own what you created; you do not own our code or content. "
+        },
+        "article3": {
+            "title": "What is GDFPlay",
+            "context": "GDFPlay is a SDK that upscale your videos real-time on mobile devices."
+        },
+        "article4": {
+            "title": "What is G-Enhancer",
+            "context": "G-Enhancer is a service program that converts low resolution videos up to 400% higher resolution video. "
+        },
+        "article5": {
+            "title": "License grant",
+            "context" : "GDFLab's services can be contracted based on device, user, and cost. The license is valid according to the contract. 'You' means the company, entity or individual whose funds are used to pay the license fee. 'Use' means storing, loading, installing, executing or displaying the SOFTWARE. You may not modify the SOFTWARE or disable any licensing or control features of the SOFTWARE except as an intended part of the SOFTWARE's programming features. This license is not transferable to any other system, or to another organization or individual."
+        },
+        "article6": {
+            "title": "Scope",
+            "context": "Use of the SOFTWARE is subject to these Terms of Service. Users who do not accept these terms of service are not authorized to use or continue using this SOFTWARE, and should cease use immediately. GDFLab may amend these Terms of Service at any time and any revised version will be effective immediately upon publication on this Website. Users should check this page from time to time to take notice of any changes that we make; as such changes will be binding upon you. No notice of any changes shall be given. In the event of any comments or questions concerning these Terms of Service, users should contact GDFLab by means of any of the contact options provided in our Website."
+        },
+        "article7": {
+            "title": "liability",
+            "context": "The material displayed on the SOFTWARE is provided on an ‘as is’ basis, without any guarantees, conditions or warranties as to its accuracy, quality, content, completeness, or adequacy and is subject to change without notice. To the extent permitted by law, GDFLab and any third parties connected to us hereby expressly exclude: (i) all conditions, warranties and other terms, which might otherwise be implied by statute, common law or the law of equity; (ii) any liability for any direct, indirect or consequential loss or damage incurred by any user in connection with the SOFTWARE, any programs linked to it or from it and any materials posted on it including but not limited to any one or more of the following: loss of income or revenue, loss of business, loss of profits or contracts, loss of prospective economic advantage, loss of anticipated savings, loss of data, loss of goodwill, wasted management or office time and whether caused by tort (including negligence), breach of contract or otherwise, even if foreseeable, provided that this condition shall not prevent claims for loss of or damage to your tangible property or any other claims for direct financial loss that are not excluded by any of the categories set out above.This does not affect GDFLab’s liability for death or personal injury arising from any negligence of ISIZE or any of our employees, nor our liability for fraudulent misrepresentation or misrepresentation as to a fundamental matter, nor any other liability which cannot be excluded or limited under applicable law."
+        },
+        "article8": {
+            "title": "Disclaimers",
+            "context": "GDFLab makes no warranty or representation that the SOFTWARE will meet your requirements, that it will be of satisfactory quality, that it will be fit for a particular purpose, that it will not infringe the rights of third parties, that it will be compatible with all systems, that it will be secure or that all information provided will be accurate. We make no guarantee of any specific results from the use of our products and services. No part of this Website is intended to constitute advice and the content of this Website should not be relied upon when making any decisions or taking any action of any kind. "
+        },
+        "article9": {
+            "title": "Intellectual property rights",
+            "context": "Unless otherwise indicated, material contained on the Website is copyright © GDFLab Co., Ltd. GDFLab owns all intellectual property rights in the GDFLab name/logo, any trademarks, and all technical infrastructures relating to the Website. Where used, third-party trademarks remain the copyright property of their respective owners. "
+        },
+        "article10": {
+            "title": "No reliance on information",
+            "context": "The opinions expressed by GDFLab employees on the blog site or help forums are the individual’s own and do not represent or necessarily correspond to the opinions of GDFLab. We will not be responsible for any direct or indirect damages or losses caused or alleged to have been caused as a result of your use or reliance on such information. "
+        },
+        "article11": {
+            "title": " No waiver",
+            "context": "Any delay or failure by GDFLab to exercise any right or remedy contained herein, shall not be construed as a waiver of that right or remedy. "
+        },
+        "article12": {
+            "title": "Third party rights",
+            "context": "Nothing in these Terms of Service shall confer any rights upon any third party. The agreement created by these Terms of Service is between you and GDFLab."
+        },
+        "article13": {
+            "title": "Jurisdiction ",
+            "context": "This SOFTWARE has been designed and these Terms of Service shall be governed by and construed in accordance with the law of South Korea. Any dispute arising out of the accessing or use of this Website shall be subject to the exclusive jurisdiction of the Courts of South Korea.\nWe reserve the right to seek injunctive, or any other equitable relief, in any courts of competent jurisdiction should we, in our sole opinion, consider this to be necessary."
+        }
+    },
+    "privacy": {
+        "title": "Privacy Policy",
+        "update": "LAST UPDATED: 2/25/2023",
+        "p1":"<GDF Lab Co., Ltd.> ('https://gdflab.com', hereinafter 'GDFLab') protects the personal information of the information subject in accordance with Article 30 of the 「Act On Personal Information Protection」 of Republic of Korea, and In order to handle complaints quickly and smoothly, we establish and disclose the personal information processing policy as follows.",
+        "p2":"○ This privacy policy will be applied from February 25, 2023.",
+        "article1": {
+            "title":"Article 1 (Purpose of processing personal information)",
+            "strong1":"<GDF Lab Co., Ltd.> ('https://gdflab.com' or 'GDFLab') processes personal information for the following purposes. The personal information being processed will not be used for any purpose other than the following, and if the purpose of use is changed, necessary measures such as obtaining separate consent in accordance with Article 18 of the 「Act On Personal Information Protection」 will be implemented.",
+            "p1":"1. Handling civil complaints",
+            "p2":"Personal information is processed for the purpose of verifying the identity of the complainant, confirming the complaint, contacting and notifying for fact-finding, and notifying the processing result.",
+            "p3":"2. Provision of goods or services",
+            "p4":"Personal information is processed for the purpose of service provision, contract/invoice sending, content provision, identity verification, and billing/settlement.",
+            "p5":"3. Marketing and advertising use",
+            "p6":"Personal information is processed for the purpose of identifying access frequency or statistics on member service use."
+        },
+        "article2": {
+            "title":"Article 2 (Processing and Retention Period of Personal Information)",
+            "p1":"① <GDF Lab Co., Ltd.> processes and retains personal information within the period of retention and use of personal information in accordance with South Korean laws and regulations or within the period of retention and use of personal information agreed upon when collecting personal information from the information subject.",
+            "p2":"② Each personal information processing and retention period is as follows.",
+            "p3":"1.<Provision of goods or services>",
+            "p4":"Personal information related to <Provision of goods or services> is retained and used for the above purpose from the date of consent for collection and use until <5 years>.",
+            "p5":"Basis of retention: According to Article 6 of the Act On The Consumer Protection In Electronic Commerce",
+            "p6":"Relevant laws:",
+            "p7":"1) Records on payment and supply of goods: 5 years",
+            "p8":"2) Records on contract or subscription withdrawal: 5 years",
+            "p9":"2.<Website membership registration and management>",
+            "p10":"Personal information related to <website membership registration and management> is retained and used for the above purposes from the date of consent for collection and use to <quasi-permanent>.",
+            "p11":"Basis of retention: Consent of information subject",
+            "p12":"3.<Processing of civil complaints>",
+            "p13":"Personal information related to <handling of civil complaints> is retained and used for the above purpose from the date of consent for collection and use until <3 years>.",
+            "p14":"Basis of retention: According to Article 6 of the Act On The Consumer Protection In Electronic Commerce",
+            "p15":"Relevant laws: Records on consumer complaints or dispute handling: 3 years",
+            "p16":"4.<Use in Marketing and Advertising>",
+            "p17":"Personal information related to <Use for Marketing and Advertising> is retained and used for the above purposes from the date of consent for collection and use to <quasi-permanent>.",
+            "p18":"Basis of retention: Consent of information subject"
+        },
+        "article3": {
+            "title":"Article 3 (Items of personal information to be processed)",
+            "p1":"① <GDF Lab Co., Ltd.> processes the following personal information items.",
+            "p2":"1<Handling civil complaints>",
+            "p3":"Required items: email, name, service use record, access log, cookie, access IP information",
+            "p4":"2<Provision of goods or services>",
+            "p5":"Required items: email, name, service use record, access log, cookie, access IP information, payment record",
+            "p6":"3<Utilization of Marketing and Advertising>",
+            "p7":"Required items: email, name, service use record, access log, cookie, access IP information"
+        },
+        "article4": {
+            "title":"Article 4 (Destruction procedure and method of personal information)",
+            "p1":"① <GDF Lab Co., Ltd.> destroys the personal information without delay when the personal information becomes unnecessary, such as the elapse of the personal information retention period or achievement of the purpose of processing.",
+            "p2":"② If the personal information retention period agreed by the information subject has elapsed or the personal information has to be kept in accordance with other laws despite the achievement of the purpose of processing, move the personal information to a separate database (DB) or change the storage location Conserve otherwise.",
+            "p3":"1. Items of personal information to be preserved: email, payment records",
+            "p4":"③ The procedure and method of personal information destruction are as follows.",
+            "p5":"1. Destruction procedure",
+            "p6":"<GDF Labs Co., Ltd.> selects the personal information for which the reason for destruction occurred, and destroys the personal information with the approval of the personal information protection officer of <GDF Labs Co., Ltd.>.",
+            "p7":"2. Destruction method",
+            "p8":"Information in the form of electronic files uses a technical method that cannot reproduce the record."
+        },
+        "article5": {
+            "title":"Article 5 (Matters concerning rights and obligations of information subjects and legal representatives and methods of exercising them)",
+            "p1":"① The information subject may exercise the right to view, correct, delete, and suspend processing of personal information at any time with respect to GDF Lab Co., Ltd.",
+            "p2":"② The exercise of rights pursuant to Paragraph 1 may be done in writing, e-mail, fax, etc. in accordance with Article 41 (1) of the Enforcement Decree of the 「Act On Personal Information Protection」 for GDF Lab Co., Ltd. will take action without delay.",
+            "p3":"③ The exercise of rights pursuant to Paragraph 1 may be done through an agent such as a legal representative of the information subject or a person who has been delegated. In this case, “Personal Information Processing Method Notice (No. A power of attorney must be submitted.",
+            "p4":"④ The rights of the information subject may be restricted in accordance with Articles 35 (4) and 37 (2) of the 「Act On Personal Information Protection」.",
+            "p5":"⑤ Request for correction and deletion of personal information cannot be requested if the personal information is specified as a collection target in other laws.",
+            "p6":"⑥ GDF Lab Co., Ltd. confirms whether the person who made the request, such as a request for reading, correction or deletion, or request for suspension of processing, is the person or a legitimate agent according to the rights of the information subject."
+        },
+        "article6": {
+            "title":"Article 6 (Matters concerning measures to ensure the safety of personal information)",
+            "strong1":"<GDF Lab Co., Ltd.> is taking the following measures to ensure the safety of personal information.",
+            "p1":"1. Conduct regular self-audits",
+            "p2":"In order to secure the stability of personal information handling, we conduct our own audits on a regular basis (once a quarter).",
+            "p3":"2. Storage of access records and prevention of forgery",
+            "p4":"The records of access to the personal information processing system are kept and managed for at least one year, however, if personal information is added or unique identification information or sensitive information is processed for more than 50,000 information subjects, it is kept for more than two years; are managing.",
+            "p5":"In addition, a security function is used to prevent forgery, theft, or loss of access records.",
+            "p6":"3. Restricting access to personal information",
+            "p7":"We take necessary measures to control access to personal information by granting, changing, and canceling access rights to the database system that processes personal information, and use an intrusion prevention system to control unauthorized access from outside.",
+            "p8":"4. Use of locks for document security",
+            "p9":"Documents and auxiliary storage media containing personal information are stored in a safe place with a lock.",
+            "p10":"5. Access control for unauthorized persons",
+            "p11":"A separate physical storage place for personal information is established and access control procedures are established and operated."
+        },
+        "article7": {
+            "title":"Article 7 (Matters concerning the installation and operation of devices that automatically collect personal information and their rejection)",
+            "p1":"① GDF Lab Co., Ltd. uses 'cookies' to store and retrieve usage information from time to time to provide users with individually customized services.",
+            "p2":"② Cookies are a small amount of information that the server (http) used to operate the website sends to the user's computer browser and is also stored on the hard disk of the user's PC computer.",
+            "p3":"A. Purpose of use of cookies: It is used to provide optimized information to users by identifying the types of visits and usage of each service and website visited by the user, popular search terms, and whether or not secure access is available.",
+            "p4":"B. Installation, operation and rejection of cookies: You can refuse to save cookies by setting the options in Tools>Internet Options>Personal Information menu at the top of the web browser.",
+            "p5":"C. If you refuse to store cookies, you may experience difficulties in using customized services."
+        },
+        "article8": {
+            "title":"Article 8 (Matters concerning the person in charge of personal information protection)",
+            "p1":"① GDF Lab Co., Ltd. is responsible for overall personal information processing, and has designated a person in charge of personal information protection as follows for complaint handling and damage relief of information subjects related to personal information processing.",
+            "p2":"▶ Person in charge of personal information protection",
+            "p3":"Name: Kyoung-ik Jang",
+            "p4":"Position: Representative",
+            "p5":"Contact: +82)01062852696, operation{'@'}gdflab.com, +82)0264992862",
+            "p6":"※ You will be connected to the department in charge of personal information protection.",
+            "p7":"② The information subject may inquire about all personal information protection-related inquiries, complaint handling, damage relief, etc. that occurred while using the service (or business) of GDEF Lab Co., Ltd. to the person in charge of personal information protection and the department in charge. GDF Lab Co., Ltd. will answer and handle inquiries from information subjects without delay."
+        },
+        "article9": {
+            "title":"Article 9 (Department that receives and processes requests for access to personal information)",
+            "strong1":"The information subject may file a request for access to personal information pursuant to Article 35 of the 「Act On Personal Information Protection」 to the following departments.",
+            "strong2":"<GDF Lab Co., Ltd.> will make every effort to promptly process the personal information access request of the information subject.",
+            "p1":"▶ Reception and processing department of personal information access request",
+            "p2":"Department Name: CS",
+            "p3":"Contact Person : Kyoung-Ik Jang",
+            "p4":"Contact: +82)01062852696, operation{'@'}gdflab.com, +82)0264992862"
+        },
+        "article10": {
+            "title":"Article 10 (Remedies for Infringement of Rights and Interests of Information Subjects)",
+            "p1":"The information subject may apply for dispute resolution or consultation to the Personal Information Dispute Mediation Committee or the Korea Internet & Security Agency Personal Information Infringement Report Center in order to receive relief from personal information infringement. In addition, for other personal information infringement reports and consultations, please contact the following organizations.",
+            "p2":"1. Personal Information Dispute Mediation Committee: (+82) 1833-6972 (www.kopico.go.kr)",
+            "p3":"2. Personal Information Infringement Report Center: (+82) 118 (privacy.kisa.or.kr)",
+            "p4":"3. Supreme Prosecutors' Office: (+82) 1301 (www.spo.go.kr)",
+            "p5":"4. National Police Agency: (+82) 182 (ecrm.cyber.go.kr)",
+            "p6":"The head of a public institution responds to a request pursuant to Article 35 (Perusal of Personal Information), Article 36 (Correction/Deletion of Personal Information), and Article 37 (Suspension of Processing of Personal Information, etc.) of the 「Act On Personal Information Protection」 A person whose rights or interests have been infringed due to a disposition or omission taken may file an administrative appeal in accordance with the Administrative Appeals Act.",
+            "p7":"※ Please refer to the website of the Central Administrative Adjudication Committee (www.simpan.go.kr) for more information on administrative adjudication."
+        },
+        "article11": {
+            "title":"Article 11 (Change of Privacy Policy)",
+            "p1":"① This personal information processing policy is effective from February 25, 2023."
+        }
+    },
+    "sdk_terms": {
+        "menu_title": "GDFPlay SDK Agreement",
+        "title": "GDFPlay SDK Subscription Agreement",
+        "update": "LAST UPDATED: 3/10/2023",
+        "context": "By subscribing to the GDFLab services (the “Services”) provided by GDFLab in relation with GDFLab SDK (the “Software”), you (the “Customer”) are agreeing to be bound by the following terms and conditions (the “Agreement”).",
+        "agreement": {
+            "title": "Term of the Agreement",
+            "context": "The duration of this Agreement (the “Term”) shall be specified in writing on conclusion of this Agreement, beginning on the date of conclusion. It is automatically renewed for an equal Term, unless either party provides a written notice of termination minimum 30 days before the end of the Term to the other party. At the end of the initial free 3 months, the free SDK is automatically terminated and further use of SDK will require payment agreement."
+        },
+        "access": {
+            "title": "Access to the Software",
+            "context1": "SR SDK can be requested for IOS(ready at the end of March 2023) and Android from GDFLab.com.  For the duration of this Agreement, GDFLab gives the Customer a non-exclusive, non-transferable and non-distributable license to use (execute, modify, execute after modifications) the Software.",
+            "context2": "The Customer agrees to take all necessary measures to guarantee the unmodified execution of the part of the Software that verifies the validity of GDFLab SDK usage and collects statistics for that purpose.",
+            "context3": "It is including but no limited to the ",
+            "item1": "running of an instance",
+            "item2": "the number of Users",
+            "item3": "the installed Apps",
+            "item4": "transferred files details(resolution of the video)",
+            "item5": "SDK executed unique ID(Customer ID and user ID)",
+            "item6": "instance time and length",
+            "context4": "GDFLab commits not to disclose individual or named figures to third parties without the consent of the Customer.",
+            "context5": "Upon expiration or termination of this Agreement, this license is revoked immediately and the Customer agrees to stop using the Software.",
+            "context6": "Should the Customer breach the terms of this action, the Customer agrees to pay GDFLab an extra fee equal to 300% of previous monthly fee plus 100,000 usd.",
+            "requirements_before": "Minimum requirements for users to use SDK is for Android; Qualcomm snapdragon 865. (More details can be found in",
+            "requirements_after": ")"
+        },
+        "charge_fee": {
+            "title": "Charges and Fees",
+            "standard": {
+                "title": "Standard charges",
+                "context1": "The standard charges for the GDFLab SDK subscription is based on the amount of data saved by using GDFLab SDK and charge 50% of the saved data.",
+                "context2": "The customer can be charged based on the user’s device on which the SDK is installed through contraction.",
+                "context3": "When during the Term, the Customer saves more data, agrees to pay an extra fee equivalent to the applicable list price for the additional data saved."
+            }
+        },
+        "condition": {
+            "title": "Conditions of Services",
+            "bug_fix": {
+                "title": "Bug Fixing Service",
+                "context_before": "For the duration of this Agreement, GDFLab commits to making all reasonable efforts to remedy any Bug of the Software (typically, the web form or phone numbers listed on ",
+                "context_after": ")"
+            },
+            "obligation": {
+                "title": "Customer Obligations",
+                "context": "The Customer agrees to:",
+                "item1": "pay GDFLab any applicable charges for the Services of the present Agreement, in accordance with the payment conditions specified at the signature of this contract ",
+                "item2": "take all measures necessary to guarantee the unmodified execution of the part of the Software that verifies the validity of the Odoo Enterprise Edition usage, as described in “2 Access to the Software”"
+            },
+            "confidentiality": {
+                "title": "Confidentiality",
+                "context1": "Definition of “Confidential Information”:",
+                "context2": "All information disclosed by a party (the “Disclosing Party”) to the other party (the “Receiving Party”), whether orally or in writing, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure. In particular any information related to the business, affairs, products, developments, trade secrets, know-how, personnel, customers and suppliers of either party should be regarded as confidential.",
+                "context3": "For all Confidential Information received during the Term of this Agreement, the Receiving Party will use the same degree of care that it uses to protect the confidentiality of its own similar Confidential Information, but not less than reasonable care.",
+                "context4": "The Receiving Party may disclose Confidential Information of the Disclosing Party to the extent compelled by law to do so, provided the Receiving Party gives the Disclosing Party prior notice of the compelled disclosure, to the extent permitted by law."
+            },
+            "data_category": {
+                "title": "Categories of Personal Data",
+                "account_data": {
+                    "title": "Billing & Account Administration Data.",
+                    "context": "Billing and account administration data, including randomly generated IDs based on either user or session IDs, first and last name of Customer contacts, company email address, phone number, and professional title."
+                },
+                "api_data": {
+                    "title": "API/SDK Requests along with Metadata.",
+                    "context": "Connectivity and device data including IP address, device model and browser information, operating system, and contents of the API or SDK request, which may include network traffic data if using the GDFPlay SDK."
+                },
+                "network_data": {
+                    "title": "Mobile SDK Network Traffic Data.",
+                    "context": "Mobile SDK network traffic data which includes mobile id, sdk termination time, and package id periodically sent from end user devices if an application is using our mobile SDKs. The data may include input video resolution, output scale, sdk execution length depending on contract type."
+                },
+                "voluntary_data": {
+                    "title": "Uploads & Voluntary Contributions.",
+                    "context": "All data that you upload to GDFLab products/services or otherwise provide to GDFLab in connection with support or feedback that your end users voluntarily contribute to GDFLab along with their associated contact information that may contain Personal Data."
+                },
+                "special_category": {
+                    "title": "Special categories of data",
+                    "context": "The Customer is not permitted to submit special categories of Personal Data to GDFLab through the GDFLab products/services, including racial or ethnic origin, political opinions, religious or philosophical beliefs, trade-union membership, genetic or biometric data, health and/or sex life."
+                },
+                "frequency": {
+                    "title": "Frequency of the transfers",
+                    "context": "Continuous, depending on Customer’s use of the GDFLab products/services."
+                },
+                "character": {
+                    "title": "Nature & Purpose of the Processing",
+                    "context": "The nature and purpose of Processing is to provide, test, maintain/support, secure and improve the GDFLab products/services, to prevent fraud, misuse and cyberattacks, to calculate de-identified aggregate statistics, and for account administration/ billing purposes."
+                },
+                "duration": {
+                    "title": "Duration of Processing",
+                    "context": "GDFLab will Process Personal Data for the duration of the Agreement, unless otherwise agreed upon in writing."
+                }
+            },
+            "data_protection": {
+                "title": "Data Protection",
+                "definitions": {
+                    "title": "Definitions",
+                    "context": "“Personal Data”, “Controller”, “Processing” take the same meanings as in the Regulation (EU) 2016/679 and the Directive 2002/58/EC, and any regulation or legislation that amends or replaces them (hereafter referred to as “Data Protection Legislation”)"
+                },
+                "processing": {
+                    "title": "Processing of Personal Data",
+                    "context1": "The parties acknowledge that the Customer’s database may contain Personal Data, for which the Customer is the Controller. This data will be processed by GDFLab when the Customer instructs so, by using any of the Services that require a database (e.g. the Cloud Hosting Services, the Database Upgrade Service, user network usage measure, storage measure), or if the Customer transfers their database or a part of their database to Gdflab for any reason pertaining to this Agreement.",
+                    "context2": "This processing will be performed in conformance with Data Protection Legislation. ",
+                    "context3": "In particular, GDFLab commits to:",
+                    "item1": "(a) only process the Personal Data when and as instructed by the Customer, and for the purpose of performing one of the Services under this Agreement, unless required by law to do so, in which case GDFLab will provide prior notice to the Customer, unless the law forbids it ;",
+                    "item2": "(b) ensure that all persons within GDFLab authorized to process the Personal Data have committed themselves to confidentiality",
+                    "item3": "(c) implement and maintain appropriate technical and organizational measures to protect the Personal Data against unauthorized or unlawful processing and against accidental loss, destruction, damage, theft, alteration or disclosure ;",
+                    "item4": "(d) notify the Customer promptly upon becoming aware of and confirming any accidental, unauthorized, or unlawful processing of, disclosure of, or access to the Personal Data ;",
+                    "item5": "(e) permanently delete all copies of the Customer’s database in possession of GDFLab, or return such data, at the Customer’s choice, upon termination of this Agreement"
+                }
+            },
+            "termination": {
+                "title": "Termination",
+                "context1": "In the event that either Party fails to fulfill any of its obligations arising herein, and if such breach has not been remedied within 30 calendar days from the written notice of such breach, this Agreement may be terminated immediately by the non-breaching Party.",
+                "context2": "Further, GDFLab may terminate the Agreement immediately in the event the Customer fails to pay the applicable fees for the Services within 21 days following the due date specified on the corresponding invoice, and after minimum 3 reminders."
+            }
+        },
+        "liability": {
+            "title": "Liability",
+            "context": "In no event will either party or its affiliates be liable for any indirect, special, exemplary, incidental or consequential damages of any kind, including but not limited to loss of revenue, profits, savings, loss of business or other financial loss, costs of standstill or delay, lost or corrupted data, arising out of or in connection with this Agreement regardless of the form of action, whether in contract, tort or otherwise, even if a party or its affiliates have been advised of the possibility of such damages, or if a party or its affiliates’ remedy otherwise fails of its essential purpose."
+        },
+        "governing": {
+            "title": "Governing Law",
+            "context": "This Agreement and all Customer orders will be subject to Korean law."
+        },
+        "severability": {
+            "title": "Severability",
+            "context": "In case any one or more of the provisions of this Agreement or any application thereof shall be invalid, illegal or unenforceable in any respect, the validity, legality and enforceability of the remaining provisions of this Agreement and any application thereof shall be in no way thereby affected or impaired. Both parties undertake to replace any invalid, illegal or unenforceable provision of this Agreement by a valid provision having the same effects and objectives."
+        }
+    }
+}

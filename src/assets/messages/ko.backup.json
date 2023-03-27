@@ -1,0 +1,282 @@
+{
+    "common": {
+        "gdflab": "지디에프랩",
+        "gdflab_full": "주식회사지디에프랩",
+        "login": "로그인",
+        "start": "시작하기",
+        "back_to_home": "홈으로 돌아가기",
+        "name": "이름"
+    },
+    "menu": {
+        "home": "홈",
+        "product": "상품",
+        "developer": "개발자",
+        "service": "서비스",
+        "mobile_sdk": "모바일 SDK",
+        "pikavue": "피카뷰",
+        "genhancer": "지-인핸서",
+        "documentation": "문서",
+        "guides": "가이드",
+        "api_references": "API 레퍼런스",
+        "pricing": "가격정책",
+        "help": "고객센터",
+        "faq": "자주 묻는 질문",
+        "contact_us": "문의하기"
+    },
+    "home": {
+        "title1": "최고의 AI\n",
+        "title2": "업스케일러",
+        "subtitle": "다양한 방법으로 우리의 AI 초해상도 기술을 경험해 보세요",
+        "whytitle1": "왜",
+        "whytitle2": "GDFLAB의",
+        "whytitle3": "초해상도 기술을 선택하나요?",
+        "performance": "속도",
+        "performance_detail": "지디에프랩은 세계에서 제일 빠른 업스케일링 및 리마스터링 솔루션을 제공합니다.",
+        "quality": "품질",
+        "quality_detail": "지디에프랩은 세계에서 제일 좋은 품질의 업스케일링 및 리마스터링 솔루션을 제공합니다.",
+        "service_name": "우리의 상품",
+        "service_title1": "우리의 다양한",
+        "service_title2": "\n기술을 활용해보세요",
+        "aisr": "인공지능 초해상도",
+        "sdk": {
+            "title": "실시간 AI 초해상도 기술로 데이터 사용량 줄이기",
+            "subtitle": "지디에프랩의 모바일 SDK를 활용하면 약 80%의 네트워크 사용량을 줄일 수 있습니다.",
+            "btn": "모바일 SDK 더 알아보기"
+        },
+        "pikavue": {
+            "title": "웹에서 미디어 파일 업스케일링, 리마스터링",
+            "subtitle": "피카뷰를 이용하면 디바이스 종류에 상관없이 이미지와 비디오를 업스케일링, 리마스터링 할 수 있습니다.",
+            "btn": "피카뷰로 이동"
+        },
+        "genhancer": {
+            "title": "컴퓨터 어플리케이션으로 비디오 업스케일링, 리마스터링",
+            "subtitle": "컴퓨터 어플리케이션 지-인핸서를 이용해 더 좋은 품질의 비디오 업스케일링, 리마스터링이 가능합니다.",
+            "btn": "지-인핸서로 이동"
+        },
+        "feedback_name": "피드백",
+        "feedback_title1": "고객의",
+        "feedback_title2": "평가",
+        "feedback_title3": "",
+        "feedbacks": [
+            {
+                "name": "래쉬드 카..",
+                "title": "크리에이티브 긱스의 창립자",
+                "desc": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+            },
+            {
+                "name": "추배어 하산",
+                "title": "헬로셰이프의 대표 및 창립자",
+                "desc": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+            },
+            {
+                "name": "에 쥬얼",
+                "title": "능숙한 개발자",
+                "desc": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+            },
+            {
+                "name": "추배어 하산",
+                "title": "헬로셰이프의 대표 및 창립자",
+                "desc": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+            },
+            {
+                "name": "에 쥬얼",
+                "title": "능숙한 개발자",
+                "desc": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+            }
+        ]
+    },
+    "documentation": {
+        "getting_started": {
+            "getting_started": "시작하기",
+            "quick_start": "빠른 시작",
+            "gdfsdk_title": "안드로이드용 GDF SR SDK",
+            "gdfsdk_desc": "`GDFSR`은 SDK 라이브러리 모듈입니다.",
+            "constraints_title": "제약사항",
+            "constraints_desc": "320x180, 320x192, 426x240, 480x270, 640x360, 그리고 854x480 해상도의 비디오 입력만 지원됩니다. 추후 다양한 해상도의 모델이 추가될 예정이며, 자동 사이즈변환, 동적 모델생성 등의 기능이 추가될 예정입니다.",
+            "initialize_title": "초기화",
+            "initialize_desc": "다른 API 호출전에 아래의 코드를 통해 초기화가 선행되어야 합니다. 최초 Activity 생성시 호출 가능합니다.",
+            "load_title": "불러오기",
+            "load_desc": "입력 영상의 해상도를 알게된 시점에 아래의 코드를 이용해 GDFUpsacler 객체를 생성합니다.",
+            "load_desc2": "'width'와 'height' 는 각각 원본 비디오의 너비와 높이입니다.\n'height'(높이)가 270이면 'scale'(배율)은 4배입니다.\n'height'(높이)가 270이상 480 미만이면 'scale'(배율)은 3배입니다.",
+            "execute_title": "실행하기",
+            "execute_desc": "영상의 모든 프레임에 대해 아래처럼 업스케일을 반복적으로 진행합니다.",
+            "execute_desc2": "함수 'clearBuffers()'는 인퍼런스 후 반드시 실행되어야 합니다. 실행하지 않으면 메모리 누수가 발생할 수 있습니다.",
+            "release_title": "해제",
+            "release_desc": "객체를 해제합니다."
+        }   
+    },
+    "product": {
+        "sdk": {
+            "title": "모바일 SDK",
+            "ecotitle": "인공지능 에코 스트리밍",
+            "subtitle": "지디에프랩의 모바일 SDK와 함께 \n80%의 비디오 네트워크 사용량을 절감하세요.",
+            "gdfplay-btn": {
+                "title": "GDF플레이",
+                "desc": "트랜스코더 데모"
+            },
+            "appstore-btn": {
+                "title": "앱 스토어",
+                "desc": "플레이어 데모"
+            },
+            "googleplay-btn": {
+                "title": "구글 플레이",
+                "desc": "플레이어 데모"
+            },
+            "how-title1": "",
+            "how-title2": "GDFLAB의",
+            "how-title3": "모바일 SDK는 어떻게 작동하나요?",
+            "how-work": [
+                {
+                    "title": "압축",
+                    "desc": "지디에프랩의 트랜스코더를 이용해 미디어 파일을 압축합니다."
+                },
+                {
+                    "title": "전송",
+                    "desc": "인터넷상에서 압축된 미디어 파일을 전송합니다."
+                },
+                {
+                    "title": "재생",
+                    "desc": "전송된 미디어 파일을 실시간으로 복원하여 재생합니다."
+                }
+            ],
+            "why-name": "왜 우리의 SDK인가요?",
+            "why-title1": "우리를 사용하는",
+            "why-title2": "대표적인 이유",
+            "why-title3": "",
+            "why-sdk": [
+                {
+                    "title": "비용절감",
+                    "subtitle": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+                },
+                {
+                    "title": "최고의 퀄리티",
+                    "subtitle": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+                },
+                {
+                    "title": "간편한 적용",
+                    "subtitle": "나라의 말이 중국과 달라 문자와 서로 통하지 아니하므로 이런 까닭으로 어리석은 백성이 이르고자 할 바가 있어도 마침내 제 뜻을 능히 펴지 못하는 사람이 많노라."
+                }
+            ]
+        }
+    },
+    "pricing": {
+        "mobile_sdk": {
+            "title": "GDF SDK 가격 정책",
+            "month": "달",
+            "year": "연",
+            "monthly": "월 결제",
+            "yearly": "연 결제",
+            "m_free": {
+                "pac_name": "무료체험",
+                "unit": "$",
+                "price": "0",
+                "bill_cycle": "3달 무료체험",
+                "list1": "유저 수 수집",
+                "list2": "네트워크 사용량 수집",
+                "list3": "네트워크 요금 수집" 
+            },
+            "m_device": {
+                "pac_name": "활성 기기 기반",
+                "unit": "$",
+                "price": "0.1",
+                "bill_cycle": "활성 기기 1개당",
+                "list": "활성 유저 수 수집" 
+            },
+            "m_network_saving": {
+                "pac_name": "네트워크 비용절감 기반",
+                "unit": "",
+                "price": "50%",
+                "bill_cycle": "네트워크 절감비용의",
+                "list1": "유저 수 수집",
+                "list2": "네트워크 사용량 수집",
+                "list3": "네트워크 요금 수집" 
+            },
+            "y_free": {
+                "pac_name": "무료체험",
+                "unit": "$",
+                "price": "0",
+                "bill_cycle": "3달 무료체험",
+                "list1": "유저 수 수집",
+                "list2": "네트워크 사용량 수집",
+                "list3": "네트워크 요금 수집" 
+            },
+            "y_device": {
+                "pac_name": "활성 기기 기반",
+                "unit": "$",
+                "price": "1",
+                "bill_cycle": "활성 기기 1개당",
+                "list": "활성 유저 수 수집" 
+            },
+            "y_network_saving": {
+                "pac_name": "네트워크 비용절감 기반",
+                "unit": "",
+                "price": "50%",
+                "bill_cycle": "네트워크 절감비용의",
+                "list1": "유저 수 수집",
+                "list2": "네트워크 사용량 수집",
+                "list3": "네트워크 요금 수집" 
+            }
+        }
+    },
+    "faq": {
+        "title": "자주 묻는 질문",
+        "context": "자주 묻는 질문에 대한 지디에프랩 전문가의 답변을 찾아보세요",
+        "faq": "FAQs",
+        "faq_detail": "아래에 전문가의 답변이 있습니다. 궁금한 내용을 찾아보세요.",
+        "no_answer": "원하는 답변을 찾지 못하셨나요?"
+    },
+    "search": {
+        "placeholder": "검색하기"
+    },
+    "contact_us": {
+        "hello": "자유롭게 물어보세요!",
+        "location": "주소",
+        "contact": "연락처",
+        "sns": "소셜 미디어",
+        "sns_hello": "소셜 미디어에서 찾기",
+        "message": "문의 내용",
+        "send": "전송하기"
+    },
+    "user": {
+        "first_name": "이름",
+        "last_name": "성",
+        "email": "이메일 주소",
+        "is_member": "이미 회원이신가요?",
+        "sign_in": "로그인"
+    },
+    "label": {
+        "firstname": "이름을 입력하세요",
+        "lastname": "성을 입력하세요",
+        "email": "이메일 주소를 입력하세요",
+        "message": "내용을 입력하세요"
+    },
+    "newsletter": {
+        "title": "뉴스레터 구독",
+        "context": "뉴스레터 구독하기!",
+        "subscribe": "구독하기"
+    },
+    "footer": {
+        "language": "언어",
+        "services": "서비스",
+        "about_us": "회사정보",
+        "team": "팀원소개",
+        "ceo_key": "대표",
+        "ceo_value": "장경익",
+        "regis_num_key": "사업자등록번호",
+        "sale_regis_key": "통신판매업신고번호",
+        "pricing_plan": "가격정책",
+        "contact_info": "연락망",
+        "gdf_address": "서울특별시 마포구 월드컵북로 396 누리꿈스퀘어 연구개발동 601-01호",
+        "privacy": "개인정보보호정책",
+        "terms": "이용약관"
+    },
+    "error": {
+        "not_found_1": "죄송합니다.",
+        "not_found_2": "페이지를 찾을 수",
+        "not_found_3": "없습니다.",
+        "not_found_detail": "홈으로 돌아가서 다시 시도해보십시오. 만약 이 페이지가 반복해서 나타난다면 보고해주시기 바랍니다.",
+        "required": "필수 항목입니다",
+        "not_valid_email": "올바른 이메일을 입력하세요",
+        "no_message": "메시지를 남겨주세요"
+    }
+}

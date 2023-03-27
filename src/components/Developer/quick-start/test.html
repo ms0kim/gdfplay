@@ -1,0 +1,64 @@
+<span>class </span><span>VideoPlayActivity </span><span>extends </span><span>AppCompatActivity {
+    </span><span>// this ImageView must be placed in layout, where the video will be showed.
+    </span><span>private </span><span>ImageView </span><span>displayView;
+    </span><span>// play button should be placed in layout also.
+    </span><span>private </span><span>Button </span><span>btnPlay;
+
+    </span><span>ExoPlayer </span><span>player = null;
+    </span><span>GDFSRProcessor </span><span>videoSR = null;
+
+    </span><span>@Override
+    </span><span>protected void </span><span>onCreate</span><span>(</span><span>Bundle </span><span>savedInstanceState) {
+        </span><span>// media resolution should be one of:
+        // 320x180, 426x240, 480x270, 640x360, 854x480
+        </span><span>String </span><span>mediaPath = </span><span>"https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/360/Big_Buck_Bunny_360_10s_10MB.mp4"</span><span>;
+        </span><span>Uri </span><span>uri = </span><span>Uri</span><span>.parse</span><span>(mediaPath);
+        </span><span>DataSource.Factory </span><span>dataSourceFactory = </span><span>new </span><span>DefaultDataSource.Factory</span><span>(this);
+        </span><span>MediaSource </span><span>mediaSource;
+        </span><span>@C.</span><span>ContentType </span><span>int </span><span>type = </span><span>Util.</span><span>inferContentType</span><span>(uri);
+        </span><span>if </span><span>(type == C.CONTENT_TYPE_DASH) {
+            mediaSource =
+                </span><span>new </span><span>DashMediaSource.Factory</span><span>(dataSourceFactory)
+                </span><span>.createMediaSource</span><span>(</span><span>MediaItem.</span><span>fromUri</span><span>(uri));
+        } </span><span>else if</span><span> (type == C.CONTENT_TYPE_OTHER) {
+            mediaSource =
+                </span><span>new </span><span>ProgressiveMediaSource.Factory</span><span>(dataSourceFactory)
+                </span><span>.createMediaSource</span><span>(MediaItem</span><span>.fromUri</span><span>(uri));
+        } </span><span>else </span><span>{
+            </span><span>throw new </span><span>IllegalStateException</span><span>()</span><span>;
+        }
+
+        </span><span>int </span><span>videoWidth, videoHeight, videoDuration</span><span>;
+        </span><span>try </span><span>(</span><span>MediaMetadataRetriever </span><span>retriever = </span><span>new </span><span>MediaMetadataRetriever</span><span>()) {
+            retriever.</span><span>setDataSource</span><span>(uri.toString(), new HashMap<>());
+            </span><span>String </span><span>height = retriever.</span><span>extractMetadata</span><span>(MediaMetadataRetriever.METADATA_KEY_VIDEO_HEIGHT);
+            </span><span>String </span><span>width = retriever.</span><span>extractMetadata</span><span>(MediaMetadataRetriever.METADATA_KEY_VIDEO_WIDTH);
+            </span><span>String </span><span>duration = retriever.</span><span>extractMetadata</span><span>(MediaMetadataRetriever.METADATA_KEY_DURATION);
+            videoWidth = </span><span>Integer.</span><span>parseInt</span><span>(width);
+            videoHeight = </span><span>Integer.</span><span>parseInt</span><span>(height);
+            videoDuration = </span><span>Integer.</span><span>parseInt</span><span>(duration);
+        } </span><span>catch</span><span> (</span><span>IOException </span><span>e) {
+            </span><span>throw new </span><span>RuntimeException(</span><span>"cannot get video information: "</span><span>+uri.</span><span>toString</span><span>()</span><span>, e);
+        }
+        player = </span><span>new </span><span>ExoPlayer.Builder</span><span>(this).</span><span>build</span><span>();
+        player.</span><span>setMediaSource</span><span>(mediaSource);
+        player.</span><span>prepare</span><span>();
+        videoSR = </span><span>new </span><span>GDFSRProcessor</span><span>(this, videoWidth, videoHeight);
+        videoSR.</span><span>setDisplayView</span><span>(displayView);
+        player.</span><span>setVideoSurface</span><span>(videoSR.</span><span>getPlayerSurface</span><span>());
+        player.</span><span>addListener(</span><span>new </span><span>Player.</span><span>Listener() {
+            </span><span>@Override
+            </span><span>public void </span><span>onPlaybackStateChanged</span><span>(</span><span>int </span><span>playbackState) {
+                </span><span>Player.Listener.super.</span><span>onPlaybackStateChanged</span><span>(playbackState);
+                </span><span>if </span><span>(playbackState == </span><span>Player</span><span>.STATE_ENDED) {
+                    videoSR.</span><span>release</span><span>();
+                    player.</span><span>release</span><span>();
+                    videoSR = null;
+                    player = null;
+                }
+            }
+        });
+        player.</span><span>play</span><span>();
+    }
+    </span><span>...</span>
+<span>}</span>

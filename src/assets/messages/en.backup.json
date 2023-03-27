@@ -1,0 +1,283 @@
+{
+    "common": {
+        "gdflab": "GDFLab",
+        "gdflab_full": "GDFLab. Co., Ltd.",
+        "login": "Login",
+        "start": "Getting Started",
+        "back_to_home": "Back to Home",
+        "name": "Name",
+        "soon": "Coming Soon"
+    },
+    "menu": {
+        "home": "Home",
+        "product": "Product",
+        "developer": "Developer",
+        "service": "Service",
+        "mobile_sdk": "Mobile SDK",
+        "pikavue": "Pikavue",
+        "genhancer": "G-Enhancer",
+        "documentation": "Documentation",
+        "guides": "Guides",
+        "api_references": "API References",
+        "pricing": "Pricing",
+        "help": "Help",
+        "faq": "FAQ",
+        "contact_us": "Contact Us"
+    },
+    "home": {
+        "title1": "Best AI",
+        "title2": "Upscaler",
+        "subtitle": "Try our AI super resolution technology in a variety of ways",
+        "whytitle1": "Why",
+        "whytitle2": "GDFLAB's",
+        "whytitle3": "super resolution?",
+        "performance": "Performance",
+        "performance_detail": "GDFLAB provides one of the fastest upscaling & remastering solutions.",
+        "quality": "Quality",
+        "quality_detail": "GDFLAB provides one of the best quality upscaling & reamstering solutions.",
+        "service_name": "Our Services",
+        "service_title1": "Make good use of our services based on",
+        "service_title2": "",
+        "aisr": "AI Super Resolution",
+        "sdk": {
+            "title": "Save Data with AI real-time SR technology",
+            "subtitle": "With GDFLab's mobile SDK, you can reduce 80% of video networking data.",
+            "btn": "Check out Mobile SDK"
+        },
+        "pikavue": {
+            "title": "Upscale and remaster your images and videos on web",
+            "subtitle": "With Pikavue, you can upscale and remaster your images and videos on any device.",
+            "btn": "Try Pikavue"
+        },
+        "genhancer": {
+            "title": "Upscale and remaster your videos on PC Application.",
+            "subtitle": "With G-Enhancer, you can upscale and remaster your videos on PC Application. You can make videos better quality.",
+            "btn": "Try G-Enhancer"
+        },
+        "feedback_name": "Feedback",
+        "feedback_title1": "What's Our Client Say",
+        "feedback_title2": "About Us",
+        "feedback_title3": "",
+        "feedbacks": [
+            {
+                "name": "Rashed Ka..",
+                "title": "Founder CreativeGigs",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Zubayer Hasan.",
+                "title": "CEO & Founder Heloshape",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Eh Jewel",
+                "title": "Senior Developer",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Zubayer Hasan.",
+                "title": "CEO & Founder Heloshape",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            },
+            {
+                "name": "Eh Jewel",
+                "title": "Senior Developer",
+                "desc": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+            }
+        ]
+    },
+    "documentation": {
+        "getting_started": {
+            "getting_started": "Getting Started",
+            "quick_start": "Quick Start",
+            "gdfsdk_title": "GDF SR SDK for Android",
+            "gdfsdk_desc": "`GDFSR` is the SDK library module.",
+            "constraints_title": "Constraints",
+            "constraints_desc": "Only video inputs with resolutions of 320x180, 320x192, 426x240, 480x270, 640x360, and 854x480 are currently supported. Models with various resolutions will be added in the future, and functions such as automatic size conversion and dynamic model creation will be added.",
+            "initialize_title": "Initialize",
+            "initialize_desc": "Initialization must be preceded by the code below before calling other APIs. It can be called when the first activity is created.",
+            "load_title": "Load",
+            "load_desc": "When the resolution of the input image is known, create a GDFUpsacler object using the code below.",
+            "load_desc2": "'width' and 'height' is resolution of the original video.\n If 'height' is less than 270, 'scale' equals to 4.\n If 'height' is between 270 and 480, then 'scale' is 3.",
+            "execute_title": "Execute",
+            "execute_desc": "For every frame of the video, the upscaling process is repeated as shown below.",
+            "execute_desc2": "Function 'clearBuffers()' must be called after inference, or may cause memory leak.",
+            "release_title": "Release",
+            "release_desc": "Release the class object."
+        }   
+    },
+    "product": {
+        "sdk": {
+            "title": "Mobile SDK",
+            "ecotitle": "AI Eco Streaming",
+            "subtitle": "With GDFLab's mobile SDK, \nyou can reduce 80% of video networking data.",
+            "gdfplay-btn": {
+                "title": "GDFPlay",
+                "desc": "Get transcoder demo on"
+            },
+            "appstore-btn": {
+                "title": "App store",
+                "desc": "Get player demo on"
+            },
+            "googleplay-btn": {
+                "title": "Google play",
+                "desc": "Get player demo on"
+            },
+            "how-title1": "How",
+            "how-title2": "GDFLAB's",
+            "how-title3": "Mobile SDK Work?",
+            "how-work": [
+                {
+                    "title": "Compress",
+                    "desc": "Compressing media files from GDFLAB's transcoding server."
+                },
+                {
+                    "title": "Transmit",
+                    "desc": "Transmitting highly compressed media files over the Internet."
+                },
+                {
+                    "title": "Play",
+                    "desc": "Playing restored media files in real time with our Mobile SDK."
+                }
+            ],
+            "why-name": "Why our mobile SDK",
+            "why-title1": "",
+            "why-title2": "Main Reasons",
+            "why-title3": "to choose it.",
+            "why-sdk": [
+                {
+                    "title": "Cost Saving",
+                    "subtitle": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+                },
+                {
+                    "title": "Best Quality",
+                    "subtitle": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+                },
+                {
+                    "title": "Easy to apply",
+                    "subtitle": "Lorem ipsum dolor sit, consectetu qsu some adipiscing elit eiusmod temp incididu nt ut labore e dol magna great aliqua.mollit ani muim."
+                }
+            ]
+        }
+    },
+    "pricing": {
+        "mobile_sdk": {
+            "title": "GDF SDK Pricing Plans",
+            "month": "month",
+            "year": "year",
+            "monthly": "monthly",
+            "yearly": "yearly",
+            "m_free": {
+                "pac_name": "FREE",
+                "unit": "$",
+                "price": "0",
+                "bill_cycle": "3 Months Free",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volum",
+                "list3": "Collects Network Fee" 
+            },
+            "m_device": {
+                "pac_name": "Active Device Base",
+                "unit": "$",
+                "price": "0.1",
+                "bill_cycle": "Per Active Device",
+                "list": "Collects Active User Count" 
+            },
+            "m_network_saving": {
+                "pac_name": "Network Saving Base",
+                "unit": "",
+                "price": "50%",
+                "bill_cycle": "of Network Cost Saving",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volum",
+                "list3": "Collects Network Fee"
+            },
+            "y_free": {
+                "pac_name": "FREE",
+                "unit": "$",
+                "price": "0",
+                "bill_cycle": "3 Months Free",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volum",
+                "list3": "Collects Network Fee"
+            },
+            "y_device": {
+                "pac_name": "Active Device Base",
+                "unit": "$",
+                "price": "1",
+                "bill_cycle": "Per Active Device",
+                "list": "Collects Active User Count"
+            },
+            "y_network_saving": {
+                "pac_name": "Network Saving Base",
+                "unit": "",
+                "price": "50%",
+                "bill_cycle": "of Network Cost Saving",
+                "list1": "Collects User Count",
+                "list2": "Collects Network Volum",
+                "list3": "Collects Network Fee"
+            }
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "context": "Find out advice and answers from experts of GDFLab!",
+        "faq": "FAQs",
+        "faq_detail": "There are experts' answers below. Find what you need.",
+        "no_answer": "Can't find your answer?"
+    },
+    "search": {
+        "placeholder": "Search for articles"
+    },
+    "contact_us": {
+        "hello": "Feel free to contact us or just say hi!",
+        "location": "Location",
+        "contact": "Contact",
+        "sns": "Social Media",
+        "sns_hello": "Find on social media",
+        "message": "Your Message",
+        "send": "Send Message"
+    },
+    "user": {
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "email": "Email Address",
+        "is_member": "Already a member?",
+        "sign_in": "Sign in."
+    },
+    "label": {
+        "firstname": "your given name",
+        "lastname": "your family name",
+        "email": "your email address",
+        "message": "your message here.."
+    },
+    "newsletter": {
+        "title": "SUBSCRIBE NOW",
+        "context": "Subscribe our Newsletter!",
+        "subscribe": "Subscribe"
+    },
+    "footer": {
+        "language": "Language",
+        "services": "Services",
+        "about_us": "About us",
+        "team": "Team",
+        "ceo_key": "CEO",
+        "ceo_value": "Kyoung-ik Jang",
+        "regis_num_key": "Korean EID",
+        "sale_regis_key": "Mail-order-sales ID",
+        "pricing_plan": "Plan & Pricing",
+        "contact_info": "Contact Info",
+        "gdf_address": "601-01, R&D Tower, NurikkumSquare, 396, World Cup bouk-ro, Mapo-gu, Seoul, Republic of Korea",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    },
+    "error": {
+        "not_found_1": "Sorry",
+        "not_found_2": "This Page Can't",
+        "not_found_3": "be Found.",
+        "not_found_detail": "Go back home and try again. If this error Occurs repeatedly, please report the issue.",
+        "required": "This is required",
+        "not_valid_email": "Valid email is required",
+        "no_message": "Leave us a message"
+    }
+}
